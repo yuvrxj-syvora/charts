@@ -1,12 +1,11 @@
 
 import './App.css'
+import { YieldChart } from './components/YieldChart'
 
 function App() {
 
   return (
-    <>
-    Here are the charts.
-    </>
+    <YieldChart />
   )
 }
 

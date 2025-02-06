@@ -1,6 +1,6 @@
 # Clone the repo
 ```
-[text](https://github.com/yuvrxj-syvora/charts.git)
+https://github.com/yuvrxj-syvora/charts.git
 ```
 
 # Install Dependencies

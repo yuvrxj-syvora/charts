@@ -293,7 +293,6 @@ export const YieldChart = () => {
         grid: {
           borderColor: "#ff9800",
           border: "1px solid",
-          color: "#5b7280",
           color: (context) => {
             console.log(context);
             if (context.tick.value === 0 || context.index === 0)

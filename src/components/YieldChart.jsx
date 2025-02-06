@@ -34,8 +34,8 @@ ChartJS.register(
 export const YieldChart = () => {
   const [timeframe, setTimeframe] = useState("1h");
 
-  // const mainData = [20.15, 8.24, 18.12, 15, 20, 30, 40, 25, 10];
-  const mainData = [20.15, 25.24, 28.12, 30, 35, 40, 50, 55, 60];
+  const mainData = [20.15, 8.24, 18.12, 15, 20, 30, 40, 25, 10];
+  // const mainData = [20.15, 25.24, 28.12, 30, 35, 40, 50, 55, 60];
   const historicalData = {
     "1h": [10.15, 15.24, 18.12, 20, 25, 30, 40, 45, 50],
     "4h": [15, 10, 18, 5, 7, 8, 6, 4, 3],

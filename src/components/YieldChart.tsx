@@ -140,9 +140,20 @@ export const YieldChart = () => {
           />
         </div>
         <div className="flex-1 min-h-0 p-4">
-          <div className="flex gap-0.5">
-            {selectedTimeframes.map((i) => {
-              return <div>{i}</div>;
+          <div className="flex flex-wrap gap-3 p-4">
+            {selectedTimeframes.map((timeframe) => {
+              const color = colorMap.get(timeframe) || "#06a8b5";
+              return (
+                <div key={timeframe} className="flex items-center gap-2">
+                  <div
+                    className="w-3 h-3 rounded-full"
+                    style={{ backgroundColor: color }}
+                  ></div>
+                  <span className="text-white text-sm font-medium">
+                    {timeframe}
+                  </span>
+                </div>
+              );
             })}
           </div>
           <LineChart data={lineChartData} options={lineChartOptions} />
